@@ -1,25 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700|Raleway:400,600,700');
-
+/*Element selection*/
 body {
-  background-color: #98D2BF;
-  color: #0D2C40;
+ background-color: #EAF4F4;
+   color: #0D2C40;
   font-family: "Raleway", sans-serif;
-  padding-top: 20px;
-  padding-right: 60px;
-  padding-left: 60px;
+  margin: 0;
 }
 
-h1 {
+h1,h2{
   text-transform: uppercase;
   text-align: center;
   font-size: 40px;
   letter-spacing: 1px;
+  font-weight: 700;
+  text-shadow: 1.5px 1.5px 1.5px ;
 }
-
-h2 {
-  text-align: center;
-}
-
 hr {
   border: none;
   border-bottom: 2px solid #002C40;
@@ -28,28 +23,71 @@ hr {
 }
 
 img {
+  display: block;
   margin: 0 auto;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 h3 {
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 25px;
   letter-spacing: .5px;
+  font-weight: 600;
+  text-decoration: underline;
 }
 
 p {
   font-family: "Lato", sans-serif;
-  font-size: 17px;
+  font-size: 19px;
 }
 
 li {
+  font-size: 1.1rem;
   font-family: "Lato", sans-serif;
+  line-height: 2;
+  list-style: none;
 }
+/*Header section*/
+header{
+  background-color: #333;
+  color: #EAF4F4;
+  padding: 2rem;
 
+}
+/*Section*/
+section{
+    padding: 30px;
+    text-align: center;
+ 
+}
+/*Section1*/
+.sec1{
+ padding: 50px;
+  
+}
+/*Section2*/
+.sec2{
+
+ padding: 50px 0;
+  width: 50%;
+  margin: 0 auto;
+}
+.sec3{
+
+    padding: 50px 0;
+  width: 50%;
+  margin: 0 auto;
+}
+.sec4{
+
+  padding: 50px 0;
+  width: 50%;
+  margin: 0 auto;
+}
 footer {
   text-align: center;
-  padding: 20px;
+  padding: 50px;
+  background-color: #000;
 }
 
 a{
